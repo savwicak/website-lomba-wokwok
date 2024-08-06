@@ -1,41 +1,3 @@
-/* body {
-    font-family: sans-serif;
-    margin: 0 50px;
-  }
-  
-  .container {
-    display: flex;
-    gap: 50px;
-  }
-  
-  #posts {
-    width: 400px;
-  }
-  
-  #posts div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .options {
-    display: flex;
-    gap: 25px;
-  }
-  
-  i {
-    cursor: pointer;
-  }
-  
-  #msg {
-    color: red;
-  }
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-} */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -202,4 +164,76 @@ img {
 .modal-content img {
     max-width: 100%;
     height: auto;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+header .btn {
+    background: #ff6200;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+header .btn:hover {
+    background: #e55b00;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section p {
+    text-align: center;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
 }
